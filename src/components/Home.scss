@@ -54,7 +54,9 @@
 }
 .bottom-card {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 .bottom-signup {
   margin-top: 30px;
@@ -106,6 +108,12 @@
 .b-last svg {
   margin-left: 10px;
 }
+@media only screen and (max-width:949px) {
+  .bottom-card{
+    justify-content: center;
+
+  }
+}
 @media only screen and (max-width: 600px) {
   .home-title {
     font-size: 30px;
@@ -128,10 +136,6 @@
     display: flex;
     flex-wrap: wrap;
     line-height: 30px;
-  }
-  .bottom-card {
-    display: flex;
-    flex-direction: column;
   }
   .bottom-signup {
     flex-direction: column;

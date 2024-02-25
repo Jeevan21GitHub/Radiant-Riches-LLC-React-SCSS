@@ -34,11 +34,21 @@ input {
 .nav-svg {
   display: none;
 }
+@media only screen and (max-width:949px) {
+  .menu {
+    display: none;
+  }
+  .nav-svg {
+    display: flex;
+    margin-left: 90px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .menu {
     display: none;
   }
   .nav-svg {
     display: flex;
+    margin-left: 10px;
   }
 }

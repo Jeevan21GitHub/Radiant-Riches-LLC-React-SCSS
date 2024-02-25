@@ -163,12 +163,15 @@
 .doc-heading {
   color: #2c384a;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:949px) {
   .card {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+}
+@media only screen and (max-width: 600px) {
+  
   .card-right {
     display: flex;
     flex-wrap: wrap;
